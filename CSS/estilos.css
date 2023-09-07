@@ -142,11 +142,8 @@ background-repeat: no-repeat;
     /* width: 100vw */
     row-gap: 5px;
     column-gap: 5px;
-  }
-  .contenedor > canvas {
-    /* width: 50px; */
+}
 
-  }
 .margenesSupInf{
     margin-top: 20px;
     margin-bottom: 20px;
