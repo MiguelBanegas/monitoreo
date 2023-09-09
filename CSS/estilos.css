@@ -129,8 +129,7 @@ background-repeat: no-repeat;
     width: 65px; /* Ajusta el tamaño según tu preferencia */
     height: 65px;
 }
-.contenedor {
-   
+.contenedor {   
     display:flex;
     /* flex-wrap: wrap; */
     flex-flow: row wrap;
