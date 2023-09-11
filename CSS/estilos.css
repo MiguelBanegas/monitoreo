@@ -129,14 +129,20 @@ background-repeat: no-repeat;
     width: 65px; /* Ajusta el tamaño según tu preferencia */
     height: 65px;
 }
-.contenedor {
-   
-    display:block;
-    justify-content: center;
+.contenedor {   
+    display:flex;
+    /* flex-wrap: wrap; */
+    flex-flow: row wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     /* margin-top: 10px; */
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     /* width: 100vw */
-  }
+    row-gap: 5px;
+    column-gap: 5px;
+}
+
 .margenesSupInf{
     margin-top: 20px;
     margin-bottom: 20px;
