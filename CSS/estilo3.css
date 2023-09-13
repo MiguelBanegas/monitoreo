@@ -21,3 +21,6 @@ body{
     row-gap: 5px;
     column-gap: 5px;
 }
+.derecha{
+    align-items: flex-end;
+}
