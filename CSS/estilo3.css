@@ -1,0 +1,23 @@
+* {
+    margin: 0px ;
+    
+}
+body{
+    background-color:#F1FAFD;
+    background-image: url(../IMG/cielo.png);
+    background-size:cover;
+}
+
+.contenedor {   
+    display:flex;
+    /* flex-wrap: wrap; */
+    flex-flow: row wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+    /* width: 100vw */
+    row-gap: 5px;
+    column-gap: 5px;
+}
