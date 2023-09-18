@@ -1,31 +1,69 @@
+* {
+    margin: 0;
+    
+}
+@media screen and (min-width: 768px) {
+    .paragrafo {
+      font-size: 22px;
+    }
+  }
+@media screen and (min-width: 425px) {
+    .parr {
+      font-size: 1rem;
+    }
+}
+
+body{
+    background-color:#D4F1FA;
+    background-image: url(../IMG/cielo.png);
+      
+    background-repeat: no-repeat;  
+    background-size:cover;
+    /* display:grid; */
+}
 .grid-container{
     display:grid;
-    background-color: #2196F3;
-    grid-template-columns: auto auto auto auto;
-    padding: 0.3rem;
+   
+    /* "a b c"; */
+    background-color:#D4F1FA;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "icono titulo  nav";
+    
+    padding: 0.1rem;
     /* gap: 50px 100px; */
 }
 .grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
+    /* background-color: rgba(255, 255, 255, 0.8); */
     text-align: center;
-    padding: 1rem 0;
+    padding: 0.5rem;
     font-size: 1rem;
   }
-.grid-item, header {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    border-radius: 1rem;
+.icono-principal{
     padding: 1rem;
-    font-size: 1rem;
+    font-size: 0.5rem;
     text-align: center;
+    grid-area: icono;
   }
-  .icono-principal{
-    padding: 1rem;
-    font-size: 1rem;
-    text-align: center;
+  
+header{
+    grid-area: titulo;
   }
-  .grid-item1{
-    grid-column-start: 1;
-    grid-column-end: 3;
+.nav-titulo{
+    grid-area: nav;
+    
 }
+p{
+    font-size: 1rem;
+}
+.navbar {
+    padding: auto;
+    opacity: 0.5;
   }
+
+
+.derecha{
+    justify-content: end;
+    align-items: flex-end;
+}
+
